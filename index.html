@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="item1">
+            <img src="tft.jpg">
+            <div class="title">tableau</div>
+            <div>
+                <label>SIZE</label>
+                <select>
+                    <option>30</option>
+                    <option>32</option>
+                    <option>34</option>
+                    <option>36</option>
+                </select>
+            </div>
+            <button onclick="touchCard(item1)">Add to Card</button>
+        </div>
+
+        <div class="card" id="item2">
+            <img src="tft.jpg">
+            <div class="title">tableau</div>
+            <div>
+                <label>SIZE</label>
+                <select>
+                    <option>30</option>
+                    <option>32</option>
+                    <option>34</option>
+                    <option>36</option>
+                </select>
+            </div>
+            <button onclick="touchCard(item2)">Add to Card</button>
+        </div>
+
+        <div class="card" id="item3">
+            <img src="tft.jpg">
+            <div class="title">tableau</div>
+            <div>
+                <label>SIZE</label>
+                <select>
+                    <option>30</option>
+                    <option>32</option>
+                    <option>34</option>
+                    <option>36</option>
+                </select>
+            </div>
+            <button onclick="touchCard(item3)">Add to Card</button>
+        </div>
+    </div>
+    <div class="cart" id="card">
+        <div class="title">CART</div><hr/>
+        <div id="title"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
